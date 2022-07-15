@@ -2,7 +2,7 @@ import React from "react";
 
 function List (props) {
     return (
-        <div key={props.id} className="person">
+        <div className="person">
             <img alt="pic" src={props.img} />
             <div>
                 <p>{props.name}</p>

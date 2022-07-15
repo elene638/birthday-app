@@ -21,7 +21,7 @@ function App () {
         return <List 
             name={person.name}
             age={person.age}
-            id={person.id}
+            key={person.id}
             img={person.image}
         />
     })
